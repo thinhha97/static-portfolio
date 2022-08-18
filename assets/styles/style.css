@@ -122,3 +122,12 @@ img {
   display: grid;
   gap: 1.5rem;
 }
+
+.header {
+  width: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: var(--body-color);
+}
